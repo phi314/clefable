@@ -1,0 +1,119 @@
+body {
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+}
+a {
+	text-decoration:none;
+}
+h2,h3{clear:both; text-align:center; font-size:16px;}
+.box {
+	width:850px;
+	margin: 0px auto;
+	height:auto;
+	padding:10px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+	background-color:#FFF;
+}
+.style	{ 
+	border: 3px solid #FFFFFF;
+}
+.header	{ 
+	height: 121px; 
+}
+.menu	{ 
+	height: 33px;
+	background:#BDD2FF;
+	font-size:12px;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+}
+
+.content {
+	margin:0px auto;
+	margin-top:10px;
+	padding:5px 5px 5px 5px;
+	height:auto;
+}
+
+.footer {
+	margin-top:10px;
+	padding:5px 5px 5px 5px;
+	background:#cd152f;
+	color:#fff;
+	-moz-border-radius: 5px 5px 5px 5px; 
+	-webkit-border-radius: 5px 5px 5px 5px; 
+	border-radius: 5px 5px 5px 5px; 
+	-moz-box-shadow:0px 0px 20px #aaa;
+    -webkit-box-shadow:0px 0px 20px #aaa;
+    box-shadow:0px 0px 20spx #aaa;
+}
+/*
+ tabel
+*/
+
+.list {
+	border-collapse: collapse;
+	width: 100%;
+	border-top: 1px solid #BFBFBF;
+	border-left: 1px solid #BFBFBF;
+	margin-bottom: 20px;
+	font-family: Tahoma; 
+	font-size: 8pt;
+	padding-top:5px;
+}
+.list td {
+	border-right: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+.list thead td {
+	background-color: #E5E5E5; 
+	padding: 0px 5px; text-transform: capitalize;
+}
+.list thead td a, .list thead td {
+	text-decoration: none; 
+	color: #000000;
+	font-weight: bold;
+	
+}
+.list tbody a {
+	text-decoration: none;
+}
+.list tbody td {
+	vertical-align: middle;
+	padding: 0px 5px;
+}
+.list tbody tr:odd {
+	background: #FFFFFF;
+}
+.list tbody tr:even {
+	background: #E4EEF7;
+}
+.list .left {
+	text-align: left;
+	padding: 7px;
+}
+.list .right {
+	text-align: right;
+	padding: 7px;
+}
+.list .center {
+	text-align: center;
+	padding: 7px;
+}
+.list .asc {
+	padding-right: 15px;
+	background: url('images/asc.png') right center no-repeat;
+}
+.list .desc {
+	padding-right: 15px;
+	background: url('images/desc.png') right center no-repeat;
+}

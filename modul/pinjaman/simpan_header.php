@@ -2,7 +2,7 @@
 session_start();
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
-$table	="pinjaman_header";
+$table	="pinjaman";
 $tgl	=jin_date_sql($_POST[tgl]);
 $no		=$_POST[no];
 $nomor	=$_POST[nomor];

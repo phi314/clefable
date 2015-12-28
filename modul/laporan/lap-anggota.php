@@ -102,7 +102,7 @@ if($pilih=='pilih'){
 $profil = "<span class='koperasi'>".namakoperasi(1)."</span><br>";
 $profil .= alamatkoperasi(1);
 
-$query = "select * from anggota
+$query = "select * from nasabah
 		$where
 		order by noanggota";
 //echo $query;

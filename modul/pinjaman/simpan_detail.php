@@ -2,7 +2,7 @@
 include "../../inc/inc.koneksi.php";
 include '../../inc/fungsi_tanggal.php';
 
-$table		="pinjaman_detail";
+$table		="angsuran";
 $no			=$_POST[no];
 $cicilan	=$_POST[i];
 $angsuran	=$_POST[angsuran];

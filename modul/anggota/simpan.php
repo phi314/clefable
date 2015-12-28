@@ -1,7 +1,7 @@
 <?php
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
-$table		="anggota";
+$table		="nasabah";
 $no		=$_POST[no];
 $id		=mysql_real_escape_string($_POST[id]);
 $nama	=mysql_real_escape_string($_POST[nama]);

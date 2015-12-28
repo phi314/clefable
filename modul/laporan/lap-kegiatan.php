@@ -87,11 +87,11 @@ $query = "SELECT id_simpanan as no_bukti,tgl as tgl, noanggota as no_anggota,jum
 				UNION
 				SELECT id_ambil as no_bukti,tgl as tgl, noanggota as no_anggota,jumlah as jml, 'Pengambilan' as ket FROM pengambilan $where
 				UNION
-				SELECT id_pinjam as no_bukti,tgl as tgl,noanggota as no_angota,jumlah as jml, 'Pinjaman' as ket FROM pinjaman_header $where
+				SELECT id_pinjam as no_bukti,tgl as tgl,noanggota as no_angota,jumlah as jml, 'Pinjaman' as ket FROM pinjaman $where
 				UNION
 				SELECT a.id_pinjam as no_bukti, tgl_bayar as tgl, noanggota as no_anggota, jumlah_bayar as jml, 'Bayar Pinjaman' as ket 
-				FROM pinjaman_header as a
-				JOIN pinjaman_detail as b
+				FROM pinjaman as a
+				JOIN angsuran as b
 				ON a.id_pinjam=b.id_pinjam
 				WHERE tgl_bayar='$tgl' $cari
 				ORDER BY tgl DESC";

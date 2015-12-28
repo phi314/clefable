@@ -2,7 +2,7 @@
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
 
-$table	= 'pinjaman_header';
+$table	= 'pinjaman';
 $id	= $_POST['cari'];
 $text	= "SELECT *
 			FROM $table WHERE id_pinjam= '$id'";

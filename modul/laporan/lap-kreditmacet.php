@@ -89,8 +89,8 @@ if($pilih=='tanggal'){
 $query = "select a.id_pinjam,a.cicilan,a.angsuran,a.bunga,(a.angsuran+a.bunga) as total,a.tgl_jatuh_tempo,a.tgl_bayar,a.jumlah_bayar,
 			b.noanggota,b.lama,b.jumlah,
 			c.namaanggota,c.jk 
-			from pinjaman_detail as a
-			join pinjaman_header as b
+			from angsuran as a
+			join pinjaman as b
 			JOIN anggota as c
 			ON a.id_pinjam=b.id_pinjam AND b.noanggota=c.noanggota
 		  $where

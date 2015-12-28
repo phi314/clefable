@@ -80,7 +80,7 @@ $q = mysql_query("SELECT * FROM simpanan $where");
 $row = mysql_num_rows($q);
 if($row>0){
 
-$q	= mysql_query("SELECT * FROM anggota WHERE noanggota='$kode'");
+$q	= mysql_query("SELECT * FROM nasabah WHERE noanggota='$kode'");
 $d 	= mysql_fetch_array($q);
 $nama 	= $d['namaanggota'];
 

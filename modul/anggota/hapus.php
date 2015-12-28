@@ -1,6 +1,6 @@
 <?php
 include "../../inc/inc.koneksi.php";
-$table	= 'anggota';
+$table	= 'nasabah';
 $id		= $_POST['id'];
 $sql 	= mysql_query("SELECT * FROM $table WHERE noanggota= '$id'");
 $row	= mysql_num_rows($sql);

@@ -23,69 +23,155 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tampil_data_cicilan.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modul/bayar/tampil_data_cicilan.php">
+      <file leaf-file-name="simpan_header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/pinjaman/simpan_header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="234" selection-end="234" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="2988">
+            <state line="4" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="396">
               <folding>
-                <marker date="1450984988948" expanded="true" signature="2139:2537" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2202:2267" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2329:2394" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2456:2528" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2580:2790" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2587:2790" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="2803:2879" placeholder="SELECT * FRO..pinjaman_detail..." />
-                <marker date="1450984988948" expanded="true" signature="3200:3263" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="3200:3215" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="3806:3821" placeholder="..." />
-                <marker date="1450984988948" expanded="true" signature="4035:4050" placeholder="..." />
+                <marker date="1451278561586" expanded="true" signature="298:435" placeholder="INSERT INTO ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cari.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modul/bayar/cari.php">
+      <file leaf-file-name="tampil_data1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/pinjaman/tampil_data1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="31" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.5555553" vertical-offset="111" max-vertical-offset="702">
+            <state line="65" column="29" selection-start="1556" selection-end="1556" vertical-scroll-proportion="-7.3333335" vertical-offset="972" max-vertical-offset="2016">
               <folding>
-                <marker date="1450985008772" expanded="true" signature="143:189" placeholder="SELECT * FRO..$table WHERE..." />
+                <marker date="1451278583217" expanded="true" signature="1194:1496" placeholder="..." />
+                <marker date="1451278583217" expanded="true" signature="1201:1496" placeholder="..." />
+                <marker date="1451278583217" expanded="true" signature="1509:1655" placeholder="SELECT a.*,b..pinjaman..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tampil_data_cicilan.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/pinjaman/tampil_data_cicilan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="29" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-0.7037037" vertical-offset="791" max-vertical-offset="1332">
+              <folding>
+                <marker date="1451278589638" expanded="true" signature="835:980" placeholder="..." />
+                <marker date="1451278589638" expanded="true" signature="842:980" placeholder="..." />
+                <marker date="1451278589638" expanded="true" signature="993:1061" placeholder="SELECT * FRO..angsuran..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cari_id.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/cari_id.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="396">
+              <folding>
+                <marker date="1352245506000" expanded="true" signature="73:130" placeholder="SELECT * FRO..$table ORDER..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cari_anggota.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modul/bayar/cari_anggota.php">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/cari_anggota.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="-12.555555" vertical-offset="237" max-vertical-offset="828">
+            <state line="4" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="774">
               <folding>
-                <marker date="1450985124898" expanded="true" signature="135:181" placeholder="SELECT * FRO..$table WHERE..." />
-                <marker date="1450985124898" expanded="true" signature="372:419" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="372:418" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="379:418" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="455:487" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="455:481" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="523:576" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="523:558" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="583:628" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="583:622" placeholder="..." />
-                <marker date="1450985124898" expanded="true" signature="700:758" placeholder="..." />
+                <marker date="1451278600656" expanded="true" signature="135:181" placeholder="SELECT * FRO..$table WHERE..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simpan.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/simpan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding>
+                <marker date="1352280114000" expanded="true" signature="260:384" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simpanan.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/simpanan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2538">
+              <folding>
+                <marker date="1364820968000" expanded="true" signature="956:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="1019:1041" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1043:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="1077:1089" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1091:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="1129:1165" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1167:1253" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="1224:1235" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1237:1245" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="1320:1374" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1376:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1398:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1404:1528" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1665:1787" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1793:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1859:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1905:1940" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="1953:1979" placeholder="SELECT * FRO..jenis_simpan..." />
+                <marker date="1364820968000" expanded="true" signature="2180:2313" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2319:2731" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2352:2724" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2413:2474" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2534:2595" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2654:2717" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="2823:2835" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2837:3153" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2861:3115" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="2885:3107" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="3038:3099" placeholder="..." />
+                <marker date="1364820968000" expanded="false" signature="3194:3206" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="3208:3476" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="3232:3438" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="3256:3430" placeholder="..." />
+                <marker date="1364820968000" expanded="true" signature="3361:3422" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tampil_data1.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.296297" vertical-offset="521" max-vertical-offset="1386">
+              <folding>
+                <marker date="1450983519037" expanded="true" signature="835:954" placeholder="..." />
+                <marker date="1450983519037" expanded="true" signature="842:954" placeholder="..." />
+                <marker date="1450983519037" expanded="true" signature="967:1116" placeholder="SELECT a.*,b..simpanan..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tampil_data2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="28" selection-start="853" selection-end="853" vertical-scroll-proportion="-2.7037036" vertical-offset="539" max-vertical-offset="1080">
+              <folding>
+                <marker date="1451278618992" expanded="true" signature="567:727" placeholder="..." />
+                <marker date="1451278618992" expanded="true" signature="574:727" placeholder="..." />
+                <marker date="1451278618992" expanded="true" signature="740:958" placeholder="SELECT a.*,b..simpanan..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="tampil_data3.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modul/penarikan/tampil_data3.php">
+        <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="63" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.66497463" vertical-offset="327" max-vertical-offset="918">
+            <state line="29" column="28" selection-start="766" selection-end="766" vertical-scroll-proportion="0.3659889" vertical-offset="324" max-vertical-offset="936">
               <folding>
-                <marker date="1450985234677" expanded="true" signature="512:622" placeholder="..." />
-                <marker date="1450985234677" expanded="true" signature="519:622" placeholder="..." />
-                <marker date="1450985234677" expanded="true" signature="635:805" placeholder="SELECT a.noa..anggota..." />
-                <marker date="1450985234677" expanded="true" signature="679:739" placeholder="SELECT sum(j..simpanan..." />
-                <marker date="1450985234677" expanded="true" signature="897:960" placeholder="..." />
+                <marker date="1451278627193" expanded="true" signature="512:622" placeholder="..." />
+                <marker date="1451278627193" expanded="true" signature="519:622" placeholder="..." />
+                <marker date="1451278627193" expanded="true" signature="635:805" placeholder="SELECT a.noa..nasabah..." />
+                <marker date="1451278627193" expanded="true" signature="679:739" placeholder="SELECT sum(j..simpanan..." />
               </folding>
             </state>
           </provider>
@@ -101,10 +187,37 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/modul/bayar/tampil_data_cicilan.php" />
+        <option value="$PROJECT_DIR$/modul/anggota/cari.php" />
+        <option value="$PROJECT_DIR$/modul/anggota/hapus.php" />
+        <option value="$PROJECT_DIR$/modul/anggota/simpan.php" />
+        <option value="$PROJECT_DIR$/modul/anggota/tampil_data.php" />
         <option value="$PROJECT_DIR$/modul/bayar/cari.php" />
         <option value="$PROJECT_DIR$/modul/bayar/cari_anggota.php" />
+        <option value="$PROJECT_DIR$/modul/bayar/cari_nomor.php" />
+        <option value="$PROJECT_DIR$/modul/bayar/simpan_detail.php" />
+        <option value="$PROJECT_DIR$/modul/bayar/tampil_data1.php" />
+        <option value="$PROJECT_DIR$/modul/bayar/tampil_data_cicilan.php" />
+        <option value="$PROJECT_DIR$/modul/lap_kegiatan/tampil_data.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/cetak-pembayaran.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/cetak-pinjam.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/cetak-storan.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/lap-anggota.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/lap-kegiatan.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/lap-kreditmacet.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/lap-pinjaman.php" />
+        <option value="$PROJECT_DIR$/modul/laporan/lap-simpanan.php" />
+        <option value="$PROJECT_DIR$/modul/penarikan/cari_anggota.php" />
         <option value="$PROJECT_DIR$/modul/penarikan/tampil_data3.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/cari_anggota.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/cari_nomor.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/hapus.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/simpan_detail.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/simpan_header.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/tampil_data1.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/tampil_data_cicilan.php" />
+        <option value="$PROJECT_DIR$/modul/simpanan/cari_anggota.php" />
+        <option value="$PROJECT_DIR$/modul/simpanan/tampil_data2.php" />
+        <option value="$PROJECT_DIR$/modul/simpanan/tampil_data3.php" />
       </list>
     </option>
   </component>
@@ -172,6 +285,64 @@
               <option name="myItemId" value="modul" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simpanan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinjaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pengguna" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -205,6 +376,146 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="laporan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lap_simpanan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lap_pinjaman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lap_kreditmacet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lap_kegiatan" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lap_anggota" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edit_profil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bayar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -219,6 +530,19 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -232,19 +556,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="-4" width="1317" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25334382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -271,97 +595,685 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modul/bayar/bayar.php">
+    <entry file="file://$PROJECT_DIR$/modul/anggota/hapus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="32" selection-start="1193" selection-end="1193" vertical-scroll-proportion="1.8062284" vertical-offset="0" max-vertical-offset="2358">
+        <state line="2" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="288">
           <folding>
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278118744" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+            <marker date="1451278118744" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modul/bayar/tampil_data_cicilan.php">
+    <entry file="file://$PROJECT_DIR$/modul/anggota/simpan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="234" selection-end="234" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="2988">
+        <state line="3" column="21" selection-start="100" selection-end="100" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="720">
           <folding>
-            <marker date="1450984988948" expanded="true" signature="2139:2537" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2202:2267" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2329:2394" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2456:2528" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2580:2790" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2587:2790" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="2803:2879" placeholder="SELECT * FRO..pinjaman_detail..." />
-            <marker date="1450984988948" expanded="true" signature="3200:3263" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="3200:3215" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="3806:3821" placeholder="..." />
-            <marker date="1450984988948" expanded="true" signature="4035:4050" placeholder="..." />
+            <marker date="1451278118753" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table &#10;&#9;&#9;&#9;&#9;   WHERE..." />
+            <marker date="1451278118753" expanded="true" signature="-1:-1" placeholder="UPDATE $tabl..." />
+            <marker date="1451278118753" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/anggota/tampil_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="28" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.14720812" vertical-offset="1245" max-vertical-offset="1836">
+          <folding>
+            <marker date="1451278118789" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278118789" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278118789" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..nasabah..." />
+            <marker date="1451278118789" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278118789" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/bayar/bayar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="32" selection-start="1193" selection-end="1193" vertical-scroll-proportion="13.259259" vertical-offset="1402" max-vertical-offset="2358">
+          <folding>
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825044000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/bayar/cari.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="31" selection-start="405" selection-end="405" vertical-scroll-proportion="-6.5555553" vertical-offset="111" max-vertical-offset="702">
+        <state line="4" column="19" selection-start="94" selection-end="102" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="702">
           <folding>
-            <marker date="1450985008772" expanded="true" signature="143:189" placeholder="SELECT * FRO..$table WHERE..." />
+            <marker date="1451278144159" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/bayar/cari_anggota.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="646" selection-end="646" vertical-scroll-proportion="-12.555555" vertical-offset="237" max-vertical-offset="828">
+        <state line="4" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="828">
           <folding>
-            <marker date="1450985124898" expanded="true" signature="135:181" placeholder="SELECT * FRO..$table WHERE..." />
-            <marker date="1450985124898" expanded="true" signature="372:419" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="372:418" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="379:418" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="455:487" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="455:481" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="523:576" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="523:558" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="583:628" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="583:622" placeholder="..." />
-            <marker date="1450985124898" expanded="true" signature="700:758" placeholder="..." />
+            <marker date="1451278156843" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/bayar/cari_nomor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="522">
+          <folding>
+            <marker date="1451278160496" expanded="true" signature="-1:-1" placeholder="SELECT max(i..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/bayar/simpan_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="558">
+          <folding>
+            <marker date="1451278168577" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table &#10;&#9;&#9;&#9;&#9;   WHERE..." />
+            <marker date="1451278168577" expanded="true" signature="-1:-1" placeholder="UPDATE $tabl..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/bayar/tampil_data1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="28" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-13.333333" vertical-offset="432" max-vertical-offset="1548">
+          <folding>
+            <marker date="1451278186075" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278186075" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278186075" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pinjaman..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/bayar/tampil_data_cicilan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="29" selection-start="2829" selection-end="2829" vertical-scroll-proportion="-10.666667" vertical-offset="1836" max-vertical-offset="2988">
+          <folding>
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278204487" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..angsuran..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_anggota/lap_anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.037037" vertical-offset="244" max-vertical-offset="810">
+          <folding>
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364798162000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_kegiatan/lap_kegiatan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.0" vertical-offset="270" max-vertical-offset="846">
+          <folding>
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364790454000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_kegiatan/tampil_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1428" selection-end="1428" vertical-scroll-proportion="3.7777777" vertical-offset="966" max-vertical-offset="1494">
+          <folding>
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="SELECT id_si..simpanan..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="SELECT id_am..pengambilan..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="SELECT id_pi..pinjaman..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="SELECT a.id_..pinjaman..." />
+            <marker date="1451278252590" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_kreditmacet/lap_kreditmacet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.962963" vertical-offset="215" max-vertical-offset="756">
+          <folding>
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364825428000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_pinjaman/lap_pinjaman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <folding>
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342970000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/lap_simpanan/lap_simpanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.962963" vertical-offset="215" max-vertical-offset="756">
+          <folding>
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352342702000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/cetak-pembayaran.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="32" selection-start="2412" selection-end="2412" vertical-scroll-proportion="56.11111" vertical-offset="4053" max-vertical-offset="4644">
+          <folding>
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pinjaman..." />
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..angsuran..." />
+            <marker date="1451278302257" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/cetak-pinjam.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="12" selection-start="2288" selection-end="2288" vertical-scroll-proportion="22.777779" vertical-offset="3009" max-vertical-offset="3600">
+          <folding>
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pinjaman..." />
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..angsuran..." />
+            <marker date="1451278328502" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/cetak-storan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="40" selection-start="1290" selection-end="1290" vertical-scroll-proportion="45.25926" vertical-offset="2698" max-vertical-offset="3276">
+          <folding>
+            <marker date="1451278346026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..simpanan..." />
+            <marker date="1451278346026" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..nasabah..." />
+            <marker date="1451278346026" expanded="true" signature="-1:-1" placeholder="SELECT id_si..simpanan..." />
+            <marker date="1451278346026" expanded="true" signature="-1:-1" placeholder="SELECT id_am..pengambilan..." />
+            <marker date="1451278346026" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/lap-anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="31" selection-start="1665" selection-end="1665" vertical-scroll-proportion="39.444443" vertical-offset="2937" max-vertical-offset="3528">
+          <folding>
+            <marker date="1451278366722" expanded="true" signature="-1:-1" placeholder="select * fro..nasabah..." />
+            <marker date="1451278366722" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/lap-kegiatan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="29" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-16.0" vertical-offset="1242" max-vertical-offset="2880">
+          <folding>
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="SELECT id_si..simpanan..." />
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="SELECT id_am..pengambilan..." />
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="SELECT id_pi..pinjaman..." />
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="SELECT a.id_..pinjaman..." />
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278404813" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/lap-kreditmacet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="25" selection-start="1686" selection-end="1686" vertical-scroll-proportion="38.185184" vertical-offset="2687" max-vertical-offset="3240">
+          <folding>
+            <marker date="1451278416417" expanded="true" signature="-1:-1" placeholder="select a.id_..angsuran..." />
+            <marker date="1451278416417" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/lap-pinjaman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="22" selection-start="1674" selection-end="1674" vertical-scroll-proportion="47.037037" vertical-offset="2962" max-vertical-offset="3528">
+          <folding>
+            <marker date="1451278440905" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pinjaman..." />
+            <marker date="1451278440905" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/laporan/lap-simpanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="31" selection-start="1381" selection-end="1381" vertical-scroll-proportion="30.37037" vertical-offset="2368" max-vertical-offset="2934">
+          <folding>
+            <marker date="1451278447493" expanded="true" signature="-1:-1" placeholder="select * fro..nasabah..." />
+            <marker date="1451278447493" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/cari_anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="142" selection-end="142" vertical-scroll-proportion="7.703704" vertical-offset="298" max-vertical-offset="864">
+          <folding>
+            <marker date="1451278461114" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/cari_id.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="55" selection-end="55" vertical-scroll-proportion="-1.3333334" vertical-offset="0" max-vertical-offset="396">
+          <folding>
+            <marker date="1352280312000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table ORDER..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/cari_jenis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding>
+            <marker date="1343291084000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/cari_saldo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/hapus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding>
+            <marker date="1352279910000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+            <marker date="1352279910000" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/penarikan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="75.96296" vertical-offset="2051" max-vertical-offset="2592">
+          <folding>
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..jenis_simpan..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829398000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/simpan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding>
+            <marker date="1352280100000" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/tampil_data1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.962963" vertical-offset="809" max-vertical-offset="1350">
+          <folding>
+            <marker date="1352279964000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352279964000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352279964000" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pengambilan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/penarikan/tampil_data2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="18.0" vertical-offset="486" max-vertical-offset="1062">
+          <folding>
+            <marker date="1352279988000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352279988000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1352279988000" expanded="true" signature="-1:-1" placeholder="SELECT a.*,b..pengambilan..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/penarikan/tampil_data3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="63" selection-start="1115" selection-end="1115" vertical-scroll-proportion="0.66497463" vertical-offset="327" max-vertical-offset="918">
+        <state line="29" column="28" selection-start="766" selection-end="766" vertical-scroll-proportion="0.4676525" vertical-offset="269" max-vertical-offset="918">
           <folding>
-            <marker date="1450985234677" expanded="true" signature="512:622" placeholder="..." />
-            <marker date="1450985234677" expanded="true" signature="519:622" placeholder="..." />
-            <marker date="1450985234677" expanded="true" signature="635:805" placeholder="SELECT a.noa..anggota..." />
-            <marker date="1450985234677" expanded="true" signature="679:739" placeholder="SELECT sum(j..simpanan..." />
-            <marker date="1450985234677" expanded="true" signature="897:960" placeholder="..." />
+            <marker date="1451278507409" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278507409" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1451278507409" expanded="true" signature="-1:-1" placeholder="SELECT a.noa..nasabah..." />
+            <marker date="1451278507409" expanded="true" signature="-1:-1" placeholder="SELECT sum(j..simpanan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pengguna/tampil_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="22.0" vertical-offset="594" max-vertical-offset="1530">
+          <folding>
+            <marker date="1450983269462" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450983269462" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450983269462" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1450983269462" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1450983269462" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/cari_anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="141" selection-end="141" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="918">
+          <folding>
+            <marker date="1451278520107" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/cari_nomor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="450">
+          <folding>
+            <marker date="1451278528105" expanded="true" signature="-1:-1" placeholder="SELECT max(i..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/cari_sisaangsuran.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/hapus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="342">
+          <folding>
+            <marker date="1451278541425" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..$tableH WHERE..." />
+            <marker date="1451278541425" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1451278541425" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/pinjaman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="72.62963" vertical-offset="1961" max-vertical-offset="2502">
+          <folding>
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1364829518000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/simpan_detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="102" selection-end="102" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="702">
+          <folding>
+            <marker date="1451278555953" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/simpan_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="117" selection-end="117" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="396">
+          <folding>
+            <marker date="1451278561586" expanded="true" signature="298:435" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/tampil_data1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="29" selection-start="1556" selection-end="1556" vertical-scroll-proportion="-7.3333335" vertical-offset="972" max-vertical-offset="2016">
+          <folding>
+            <marker date="1451278583217" expanded="true" signature="1194:1496" placeholder="..." />
+            <marker date="1451278583217" expanded="true" signature="1201:1496" placeholder="..." />
+            <marker date="1451278583217" expanded="true" signature="1509:1655" placeholder="SELECT a.*,b..pinjaman..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/tampil_data_cicilan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="29" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-0.7037037" vertical-offset="791" max-vertical-offset="1332">
+          <folding>
+            <marker date="1451278589638" expanded="true" signature="835:980" placeholder="..." />
+            <marker date="1451278589638" expanded="true" signature="842:980" placeholder="..." />
+            <marker date="1451278589638" expanded="true" signature="993:1061" placeholder="SELECT * FRO..angsuran..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/cari_id.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding>
+            <marker date="1352245506000" expanded="true" signature="73:130" placeholder="SELECT * FRO..$table ORDER..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/cari_anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="774">
+          <folding>
+            <marker date="1451278600656" expanded="true" signature="135:181" placeholder="SELECT * FRO..$table WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/simpan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding>
+            <marker date="1352280114000" expanded="true" signature="260:384" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/simpanan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2538">
+          <folding>
+            <marker date="1364820968000" expanded="true" signature="956:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="1019:1041" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1043:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="1077:1089" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1091:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="1129:1165" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1167:1253" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="1224:1235" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1237:1245" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="1320:1374" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1376:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1398:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1404:1528" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1665:1787" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1793:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1859:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1905:1940" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="1953:1979" placeholder="SELECT * FRO..jenis_simpan..." />
+            <marker date="1364820968000" expanded="true" signature="2180:2313" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2319:2731" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2352:2724" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2413:2474" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2534:2595" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2654:2717" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="2823:2835" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2837:3153" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2861:3115" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="2885:3107" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="3038:3099" placeholder="..." />
+            <marker date="1364820968000" expanded="false" signature="3194:3206" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="3208:3476" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="3232:3438" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="3256:3430" placeholder="..." />
+            <marker date="1364820968000" expanded="true" signature="3361:3422" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.296297" vertical-offset="521" max-vertical-offset="1386">
+          <folding>
+            <marker date="1450983519037" expanded="true" signature="835:954" placeholder="..." />
+            <marker date="1450983519037" expanded="true" signature="842:954" placeholder="..." />
+            <marker date="1450983519037" expanded="true" signature="967:1116" placeholder="SELECT a.*,b..simpanan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="853" selection-end="853" vertical-scroll-proportion="-2.7037036" vertical-offset="539" max-vertical-offset="1080">
+          <folding>
+            <marker date="1451278618992" expanded="true" signature="567:727" placeholder="..." />
+            <marker date="1451278618992" expanded="true" signature="574:727" placeholder="..." />
+            <marker date="1451278618992" expanded="true" signature="740:958" placeholder="SELECT a.*,b..simpanan..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/simpanan/tampil_data3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="766" selection-end="766" vertical-scroll-proportion="0.3659889" vertical-offset="324" max-vertical-offset="936">
+          <folding>
+            <marker date="1451278627193" expanded="true" signature="512:622" placeholder="..." />
+            <marker date="1451278627193" expanded="true" signature="519:622" placeholder="..." />
+            <marker date="1451278627193" expanded="true" signature="635:805" placeholder="SELECT a.noa..nasabah..." />
+            <marker date="1451278627193" expanded="true" signature="679:739" placeholder="SELECT sum(j..simpanan..." />
           </folding>
         </state>
       </provider>

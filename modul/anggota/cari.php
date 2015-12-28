@@ -1,7 +1,7 @@
 <?php
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
-$table	= 'anggota';
+$table	= 'nasabah';
 $id		= $_POST['id'];
 $text	= "SELECT * FROM $table WHERE noanggota= '$id'";
 $sql 	= mysql_query($text);

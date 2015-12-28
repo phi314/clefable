@@ -72,7 +72,7 @@ echo "<table id='theTable' width='100%'>
 			<th width='10%'>Aksi</th>
 		</tr>";
 	$sql	= "SELECT * 
-				FROM anggota
+				FROM nasabah
 				$where
 				ORDER BY noanggota";
 	$query	= mysql_query($sql);

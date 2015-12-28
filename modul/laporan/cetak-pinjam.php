@@ -88,8 +88,8 @@ $kode	= $_GET['kode'];
 
 $where	= " WHERE id_pinjam ='$kode'";
 $q	= mysql_query("SELECT a.*,b.* 
-	  FROM pinjaman_header as a
-	  JOIN anggota as b
+	  FROM pinjaman as a
+	  JOIN nasabah as b
 	  ON a.noanggota=b.noanggota
 	  WHERE id_pinjam='$kode'");
 $d 	= mysql_fetch_array($q);
@@ -120,7 +120,7 @@ $judul_H .= "$noanggota - $nama<br>";
 
 
 
-$query = "SELECT * FROM pinjaman_detail
+$query = "SELECT * FROM angsuran
 		$where
 		order by cicilan";
 

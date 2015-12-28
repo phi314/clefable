@@ -27,7 +27,7 @@ echo "<table id='theTable' class='tiga' width='100%'>
 		</tr>";
 	$sql	= "SELECT a.noanggota,a.namaanggota,a.jk,
 				(SELECT sum(jumlah) FROM simpanan WHERE noanggota=a.noanggota) as total
-				FROM anggota as a
+				FROM nasabah as a
 				$where
 				ORDER BY noanggota";
 	$query	= mysql_query($sql);

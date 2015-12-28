@@ -32,7 +32,7 @@ echo "<table id='theTable' class='dua' width='100%'>
 	$sql	= "SELECT a.*,b.jenis_simpanan,c.namaanggota,c.jk
 				FROM simpanan as a
 				JOIN jenis_simpan as b
-				JOIN anggota as c
+				JOIN nasabah as c
 				ON a.id_jenis=b.id_jenis AND a.noanggota=c.noanggota
 				$where
 				ORDER BY a.id_simpanan DESC";

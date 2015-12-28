@@ -84,7 +84,7 @@ if($pilih=='pilih'){
 }
 
 
-$query = "select * from anggota
+$query = "select * from nasabah
 		$where
 		order by noanggota";
 //echo $query;

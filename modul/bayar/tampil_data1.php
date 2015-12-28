@@ -41,8 +41,8 @@ echo "<table id='theTable' class='satu' width='100%'>
 			<th>Sisa</th>
 		</tr>";
 	$sql	= "SELECT a.*,b.namaanggota,b.jk
-				FROM pinjaman_header as a
-				JOIN anggota as b
+				FROM pinjaman as a
+				JOIN nasabah as b
 				ON a.noanggota=b.noanggota
 				$where
 				ORDER BY a.id_pinjam DESC";

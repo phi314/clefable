@@ -116,7 +116,7 @@ echo "<table id='theTable' width='100%'>
 			<th>Jumlah Bayar</th>
 		</tr>";
 	$sql	= "SELECT *
-				FROM pinjaman_detail 
+				FROM angsuran
 				$where
 				ORDER BY id_pinjam,cicilan";
 	$query	= mysql_query($sql);

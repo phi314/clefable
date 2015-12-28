@@ -2,7 +2,7 @@
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
 
-$table	= 'pinjaman_header';
+$table	= 'pinjaman';
 $text	= "SELECT max(id_pinjam) as noakhir
 			FROM $table";
 $sql 	= mysql_query($text);

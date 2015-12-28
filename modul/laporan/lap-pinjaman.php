@@ -91,8 +91,8 @@ if($pilih=='nomor'){
 
 
 $query = "SELECT a.*,b.namaanggota,b.jk
-		  FROM pinjaman_header as a
-		  JOIN anggota as b
+		  FROM pinjaman as a
+		  JOIN nasabah as b
 		  ON a.noanggota=b.noanggota
 		  $where
 		  ORDER BY a.id_pinjam DESC";

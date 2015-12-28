@@ -2,7 +2,7 @@
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
 include "../../inc/fungsi_koperasi.php";
-$table	= 'anggota';
+$table	= 'nasabah';
 $id		= $_POST['cari'];
 $text	= "SELECT *
 			FROM $table WHERE noanggota= '$id'";

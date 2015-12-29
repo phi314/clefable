@@ -43,7 +43,7 @@ function kotakoperasi($id){
 }
 function jmlBayar($no) {
 	$sql	= "SELECT sum(angsuran+bunga) as total 
-				FROM pinjaman_detail
+				FROM angsuran
 				WHERE id_pinjam='$no'";
 	$data	= mysql_fetch_array(mysql_query($sql));
 	$row		= mysql_num_rows(mysql_query($sql));
@@ -56,7 +56,7 @@ function jmlBayar($no) {
 }
 function sisa($no) {
 	$sql	= "SELECT sum(jumlah_bayar) as total 
-				FROM pinjaman_detail
+				FROM angsuran
 				WHERE id_pinjam='$no'";
 	$data	= mysql_fetch_array(mysql_query($sql));
 	$row		= mysql_num_rows(mysql_query($sql));
@@ -124,8 +124,8 @@ function saldo($anggota) {
 }
 function sisaAngsuran($anggota){
 	$sql	= mysql_query("select b.noanggota,sum(a.angsuran+a.bunga) as total
-			from pinjaman_detail as a
-			join pinjaman_header as b
+			from angsuran as a
+			join pinjaman as b
 			ON a.id_pinjam=b.id_pinjam
 			WHERE jumlah_bayar=0 AND noanggota='$anggota'
 			GROUP BY b.noanggota");

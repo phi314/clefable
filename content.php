@@ -69,6 +69,12 @@ elseif ($mod=='lap-kreditmacet'){
 elseif ($mod=='lap-kegiatan'){
     include "modul/lap_kegiatan/lap_kegiatan.php";
 }
+elseif ($mod=='kas'){
+    include "modul/kas/kas.php";
+}
+elseif ($mod=='lap-peramalan'){
+    include "modul/lap_peramalan/lap_peramalan.php";
+}
 else{
   echo "<b>MODUL BELUM ADA ATAU BELUM LENGKAP SILAHKAN BUAT SENDIRI</b>";
 }

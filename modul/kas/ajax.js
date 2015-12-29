@@ -10,10 +10,14 @@ $(document).ready(function(){
 		var isi = $(e.target).val();
 		$(e.target).val(isi.toUpperCase());
 	});
+
+    $("#tampil_data3").load('modul/kas/tampil_data1.php');
+
+
 	/*
 	$('#tabs').tabs();
 	*/
-	$("#tgl").datepicker({
+	$("#tanggal").datepicker({
 			dateFormat:"dd-mm-yy"        
     });
 	$("#tgl1").datepicker({
@@ -32,35 +36,29 @@ $(document).ready(function(){
 		simpan();
 	})
 	function simpan(){
-		var no		= $("#nomor").val();
-		var tgl		= $("#tgl").val();
-		var jenis	= $("#jenis").val();
-		var jml		= $("#jml").val();
-		var info_anggota = $("#info_anggota").html();
-	
+		var tanggal		= $("#tanggal").val();
+		var aktiva	    = $("#aktiva").val();
+		var pasiva	    = $("#pasiva").val();
+		var jumlah		= $("#jumlah").val();
+
 		//alert(info_anggota.length);
 		
-		if(no.length==0){
-			alert('Maaf, Nomor Anggota tidak boleh kosong');
-			$("#nomor").focus();
-			return false;
-		}
-		if(info_anggota.length==0){
-			alert('Maaf, Nomor Anggota  tidak valid');
-			$("#nomor").focus();
-			return false;
-		}
-		if(tgl.length==0){
+		if(tanggal.length==0){
 			alert('Maaf, Tanggal tidak boleh kosong');
-			$("#tgl").focus();
+			$("#tanggal").focus();
 			return false;
 		}
-		if(jenis.length==0){
-			alert('Maaf, Jenis Simpanan tidak boleh kosong');
-			$("#jenis").focus();
+		if(aktiva.length==0){
+			alert('Maaf, Aktiva tidak boleh kosong');
+			$("#aktiva").focus();
 			return false;
 		}
-		if(jml.length==0){
+		if(pasiva.length==0){
+			alert('Maaf, Pasiva tidak boleh kosong');
+			$("#pasiva").focus();
+			return false;
+		}
+		if(jumlah.length==0){
 			alert('Maaf, Jumlah tidak boleh kosong');
 			$("#jml").focus();
 			return false;
@@ -68,14 +66,16 @@ $(document).ready(function(){
 		
 		$.ajax({
 			type	: "POST",
-			url		: "modul/simpanan/simpan.php",
-			data	: "no="+no+
-					"&tgl="+tgl+
-					"&jenis="+jenis+
-					"&jml="+jml,
+			url		: "modul/kas/simpan.php",
+			data	: {
+                        tanggal: tanggal,
+                        aktiva: aktiva,
+                        pasiva: pasiva,
+                        jumlah: jumlah
+            },
 			success	: function(data){
 				//$("#tampil_data1").html(data);
-				$("#tampil_data1").load('modul/simpanan/tampil_data1.php?cari='+no);
+				$("#tampil_data1").load('modul/kas/tampil_data1.php');
 				cariID();
 			}
 		});
@@ -84,7 +84,7 @@ $(document).ready(function(){
 	function cariID(){
 	$.ajax({
 			type	: "POST",
-			url		: "modul/simpanan/cari_id.php",
+			url		: "modul/kas/cari_id.php",
 			dataType : "json",				  
 			success	: function(data){
 				$("#id").val(data.id);
@@ -120,7 +120,7 @@ $(document).ready(function(){
 		var cari = e;
 		$.ajax({
 			type	: "GET",
-			url		: "modul/simpanan/tampil_data1.php",
+			url		: "modul/kas/tampil_data1.php",
 			data	: "cari="+cari,
 			success	: function(data){
 				$("#tampil_data1").html(data);
@@ -169,7 +169,7 @@ $(document).ready(function(){
 		
 		$.ajax({
 			type	: "POST",
-			url		: "modul/simpanan/tampil_data2.php",
+			url		: "modul/kas/tampil_data2.php",
 			data	: "tgl1="+tgl1+"&tgl2="+tgl2,
 			success	: function(data){
 				$("#tampil_data2").html(data);
@@ -185,7 +185,7 @@ $(document).ready(function(){
 		var cari = e;
 		$.ajax({
 			type	: "POST",
-			url		: "modul/simpanan/tampil_data3.php",
+			url		: "modul/kas/tampil_data1.php",
 			data	: "cari="+cari,
 			success	: function(data){
 				$("#tampil_data3").html(data);

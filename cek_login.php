@@ -19,11 +19,11 @@ if (!ctype_alnum($username) OR !ctype_alnum($pass)){
 	if ($ketemu > 0){
 		session_start();
 	  	$r = mysql_fetch_array($login);
-		$_SESSION[namauser]     = $r[user_id];
-		$_SESSION[passuser]     = $r[password];
-		$_SESSION[namalengkap]  = $r[namalengkap];
-		$_SESSION[level]     	= $r[level];
-		$_SESSION[foto]     	= $r[foto];
+		$_SESSION['namauser']     = $r['user_id'];
+		$_SESSION['passuser']     = $r['password'];
+		$_SESSION['namalengkap']  = $r['namalengkap'];
+		$_SESSION['level']     	= $r['level'];
+		$_SESSION['foto']     	= $r['foto'];
 		header('location:media.php?module=home');
 	}else{
 	?>

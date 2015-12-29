@@ -33,6 +33,9 @@ if($level=='super admin'){
         <li data-options="iconCls:'icon-new'">
         <a href="?module=bayar">Bayar Pinjaman</a>
         </li>
+        <li data-options="iconCls:'icon-new'">
+            <a href="?module=kas">Kas</a>
+        </li>
 	</ul>
 </div>
 <div title="Laporan" data-options="iconCls:'icon-print'" style="overflow:auto;padding:5px 0px;">
@@ -51,6 +54,9 @@ if($level=='super admin'){
         </li>
         <li data-options="iconCls:'icon-print'">
         <a href="?module=lap-kegiatan">Kegiatan Sehari-hari</a>
+        </li>
+        <li data-options="iconCls:'icon-print'">
+            <a href="?module=lap-peramalan">Peramalan</a>
         </li>
 	</ul>
 </div>

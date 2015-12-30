@@ -43,8 +43,9 @@ echo "<div id='form_input' title='Tambah/Edit Data'>
 <td width='2%'>:</td>
 <td>
 <select name='level' id='level' class='input'>
-<option value='super admin'>super admin</option>
 <option value='admin'>admin</option>
+<option value='manager'>manager</option>
+<option value='kasir'>kasir</option>
 </select>
 </td>
 </tr>

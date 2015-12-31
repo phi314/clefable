@@ -54,7 +54,7 @@ echo "<div id='dalam_content'>
 <div class=\"easyui-tabs\" style=\"width:auto;height:auto\">
 <div title=\"Pinjaman\" style=\"padding:10px\">
 	<div id='form_isian'>
-		<div class=\"easyui-tabs\" style=\"width:400px;height:auto;float:right;\">
+		<div class=\"easyui-tabs\" style=\"width:300px;height:auto;float:right;\">
 		<div id='info_anggota' title=\"Info Anggota\" style=\"padding:5px\">
 		</div>
 		</div>

@@ -10,7 +10,7 @@ $sql 	= mysql_query($text);
 $row	= mysql_num_rows($sql);
 if ($row>0){
 	$r=mysql_fetch_array($sql);
-	if ($r[jk]=='L'){
+	if ($r['jk']=='L'){
 		$sex = 'Laki-laki';
 	}else{
 		$sex = 'Perempuan';
@@ -31,7 +31,7 @@ if ($row>0){
 		</tr>
 		<tr>
 			<td>Tempat, Tgl Lahir</td>
-			<td>: $r[tempat_lahir], ".jin_date_str($r[tgl_lahir])."</td>
+			<td>: $r[tempat_lahir], ".jin_date_str($r['tgl_lahir'])."</td>
 		</tr>
 		<tr>
 			<td>Alamat</td>

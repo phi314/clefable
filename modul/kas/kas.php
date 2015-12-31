@@ -54,7 +54,7 @@ echo "<div id='dalam_content'>
 <h2>KAS</h2>
 <div class=\"easyui-tabs\" style=\"width:auto;height:auto\">
 <div title=\"Tambah Transaksi Kas\" style=\"padding:10px\">
-	<div id=\"p\" class=\"easyui-panel\" title=\"Kas\" style=\"float:left;width:650px;padding:5px;margin-buttom:10px;\">
+	<div id=\"p\" class=\"easyui-panel\" title=\"Kas\" style=\"float:left;width:980px;padding:5px;margin-buttom:10px;\">
 	<table width='100%'>
 	<tr>
 	<td width='15%'>Tanggal</td>
@@ -86,7 +86,43 @@ echo "<div id='dalam_content'>
 	</tr>
 	</table>
 	</div>
+
 <div id='tampil_data1'>
+
+<table id='theTable' width='100%'>
+		<tr>
+			<th width='5%'>No</th>
+			<th>Tanggal</th>
+			<th>Activa</th>
+			<th>Pasiva</th>
+			<th>Jumlah</th>
+			<th>Hapus</th>
+		</tr>";
+	$sql	= "SELECT *
+              FROM kas
+				ORDER BY created_at DESC";
+	$query	= mysql_query($sql);
+	$no=1;
+	$gtotal = 0;
+	while($rows=mysql_fetch_array($query)){
+		echo "<tr>
+				<td align='center'>$no</td>
+				<td align='center'>".$rows['tanggal']."</td>
+				<td align='right'>".$rows['aktiva']."</td>
+				<td align='right'>".$rows['pasiva']."</td>
+				<td align='right'>".number_format($rows['jumlah'])."</td>
+				<td align='center'>
+				<a href='javascript:deleteRow(\"{$rows['id']}\")'>Hapus</a>
+				</td>
+			</tr>";
+	$no++;
+	$gtotal = $gtotal+$rows['jumlah'];
+	}
+
+	echo"<tr>
+		<td colspan='4' align='center'>Total</td>
+		<td align='right'><b>".number_format($gtotal)."</b></td>
+	</table>
 
 </div>
 </div>

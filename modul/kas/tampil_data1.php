@@ -22,7 +22,7 @@ function deleteRow(ID) {
 			url		: "modul/kas/hapus.php",
 			data	: "id="+id,
 			success	: function(data){
-				$("#tampil_data1").load("modul/simpanan/tampil_data1.php");
+				$("#tampil_data1").load("modul/kas/tampil_data1.php");
 			}
 		});
 	}

@@ -45,18 +45,19 @@ echo "<table id='theTable' width='100%'>
 	$sql	= "SELECT *
 				FROM angsuran
 				$where
-				ORDER BY id_pinjam,cicilan";
+				ORDER BY id_pinjam, cicilan";
 	$query	= mysql_query($sql);
 	$no=1;
+    $gtotal = 0;
 	while($rows=mysql_fetch_array($query)){
-		$jumlah = $rows[angsuran]+ $rows[bunga];
+		$jumlah = $rows['angsuran']+ $rows['bunga'];
 		$tgl	= jin_date_str($rows['tgl_jatuh_tempo']);
 		echo "<tr>
 				<td align='center'>$no</td>
 				<td align='center'>$rows[cicilan]</td>
 				<td align='center'>$tgl</td>
-				<td align='right'>".number_format($rows[angsuran])."</td>
-				<td align='right'>".number_format($rows[bunga])."</td>
+				<td align='right'>".number_format($rows['angsuran'])."</td>
+				<td align='right'>".number_format($rows['bunga'])."</td>
 				<td align='right'>".number_format($jumlah)."</td>
 			</tr>";
 	$no++;

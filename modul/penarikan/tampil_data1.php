@@ -43,24 +43,25 @@ echo "<table id='theTable' width='100%'>
 		</tr>";
 	$sql	= "SELECT a.*,b.jenis_simpanan
 				FROM pengambilan as a
-				JOIN jenis_simpan as b
+				JOIN jenis_simpanan as b
 				ON a.id_jenis=b.id_jenis
 				$where
 				ORDER BY a.id_ambil DESC";
 	$query	= mysql_query($sql);
 	$no=1;
+    $gtotal = 0;
 	while($rows=mysql_fetch_array($query)){
 		echo "<tr>
 				<td align='center'>$no</td>
-				<td align='center'>".jin_date_str($rows[tgl])."</td>
-				<td>$rows[jenis_simpanan]</td>
-				<td align='right'>".number_format($rows[jumlah])."</td>
+				<td align='center'>".jin_date_str($rows['tgl'])."</td>
+				<td>".$rows['jenis_simpanan']."</td>
+				<td align='right'>".number_format($rows['jumlah'])."</td>
 				<td align='center'>
-				<a href='javascript:deleteRow(\"{$rows[id_ambil]}\")'>Hapus</a>			
+				<a href='javascript:deleteRow(\"{$rows['id_ambil']}\")'>Hapus</a>
 				</td>
 			</tr>";
 	$no++;
-	$gtotal = $gtotal+$rows[jumlah];
+	$gtotal = $gtotal+$rows['jumlah'];
 	}
 echo "
 	<tr>

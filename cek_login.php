@@ -4,8 +4,8 @@ function anti_injection($data){
   $filter = mysql_real_escape_string(stripslashes(strip_tags(htmlspecialchars($data,ENT_QUOTES))));
   return $filter;
 }
-$username	= anti_injection($_POST[username]);
-$pass		= anti_injection(md5($_POST[password]));
+$username	= anti_injection($_POST['username']);
+$pass		= anti_injection(md5($_POST['password']));
 if (!ctype_alnum($username) OR !ctype_alnum($pass)){
 ?>
 <script>

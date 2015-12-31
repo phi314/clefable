@@ -52,7 +52,7 @@ echo "<div id='dalam_content'>
 <h2>PENARIKAN ANGGOTA</h2>
 <div class=\"easyui-tabs\" style=\"width:auto;height:auto\">
 <div title=\"Simpanan\" style=\"padding:10px\">
-	<div class=\"easyui-tabs\" style=\"width:400px;height:auto;float:right;\">
+	<div class=\"easyui-tabs\" style=\"width:300px;height:auto;float:right;\">
 	<div id='info_anggota' title=\"Info Anggota\" style=\"padding:5px\">
 	</div>
 	</div>	
@@ -79,10 +79,10 @@ echo "<div id='dalam_content'>
 	<td width='2%'>:</td>
 	<td><select name='jenis' id='jenis' class='input'>
 	<option value=''>-Pilih-</option>";
-	$sql = "SELECT * FROM jenis_simpan";
+	$sql = "SELECT * FROM jenis_simpanan";
 	$query = mysql_query($sql);
 	while($rows=mysql_fetch_array($query)){
-	echo "<option value='$rows[id_jenis]'>$rows[id_jenis] - $rows[jenis_simpanan]</option>";
+	echo "<option value={$rows['id_jenis']}>{$rows['id_jenis']} - {$rows['jenis_simpanan']}</option>";
 	}
 	echo "</select>
 	</td>

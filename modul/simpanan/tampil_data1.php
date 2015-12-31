@@ -1,34 +1,35 @@
 <script type="text/javascript">
-$(function() {
-	$("#theTable tr:even").addClass("stripe1");
-	$("#theTable tr:odd").addClass("stripe2");
+    $(function() {
+        $("#theTable tr:even").addClass("stripe1");
+        $("#theTable tr:odd").addClass("stripe2");
 
-	$("#theTable tr").hover(
-		function() {
-			$(this).toggleClass("highlight");
-		},
-		function() {
-			$(this).toggleClass("highlight");
-		}
-	);
-});
-function deleteRow(ID) {
-	var id	= ID;
-	var cari = $("#nomor").val();
-   var pilih = confirm('Data yang akan dihapus  = '+id+ '?');
-	if (pilih==true) {
-		$.ajax({
-			type	: "POST",
-			url		: "modul/simpanan/hapus.php",
-			data	: "id="+id,
-			success	: function(data){
-				$("#tampil_data1").load("modul/simpanan/tampil_data1.php?cari="+cari);
-			}
-		});
-	}
-}
+        $("#theTable tr").hover(
+            function() {
+                $(this).toggleClass("highlight");
+            },
+            function() {
+                $(this).toggleClass("highlight");
+            }
+        );
+    });
+    function deleteRow(ID) {
+        var id	= ID;
+        var cari = $("#nomor").val();
+        var pilih = confirm('Data yang akan dihapus  = '+id+ '?');
+        if (pilih==true) {
+            $.ajax({
+                type	: "POST",
+                url		: "modul/simpanan/hapus.php",
+                data	: "id="+id,
+                success	: function(data){
+                    $("#tampil_data1").load("modul/simpanan/tampil_data1.php?cari="+cari);
+                }
+            });
+        }
+    }
 </script>
 <?php
+
 include '../../inc/inc.koneksi.php';
 include '../../inc/fungsi_tanggal.php';
 $cari	= $_GET['cari'];
@@ -43,11 +44,12 @@ echo "<table id='theTable' width='100%'>
 		</tr>";
 	$sql	= "SELECT a.*,b.jenis_simpanan
 				FROM simpanan as a
-				JOIN jenis_simpan as b
+				JOIN jenis_simpanan as b
 				ON a.id_jenis=b.id_jenis
 				$where
 				ORDER BY a.id_simpanan DESC";
 	$query	= mysql_query($sql);
+
 	$no=1;
 	$gtotal = 0;
 	while($rows=mysql_fetch_array($query)){

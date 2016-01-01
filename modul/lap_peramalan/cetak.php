@@ -219,7 +219,7 @@ $array_bulan = $array_bulan_kas;
 <br>
 
 <?php
-{
+if(mysql_num_rows($q) > $n){
 ?>
 <table id="theTable" width="100%">
     <thead>

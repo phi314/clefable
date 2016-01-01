@@ -76,7 +76,7 @@
             </tr>
         </table>
         <div id='menu-tombol'>
-            <button class='ui-state-default ui-corner-all' id='cetak'>
+            <button class='ui-state-default ui-corner-all'>
                 <span class='ui-icon ui-icon-print'></span> Hitung Peramalan
             </button>
         </div>

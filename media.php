@@ -72,7 +72,7 @@ session_start();
 </div>
 
 <div class="panel-header" fit="true" style="height:20px;text-align:center;">
-    Copyright &copy; KOPERASI RAJAWALI CITRA MANDIRI Tahun 2012.
+    Copyright &copy; KOPERASI RAJAWALI CITRA MANDIRI Tahun 2015.
 </div>
 </body>
 </html>

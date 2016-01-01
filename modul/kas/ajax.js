@@ -48,16 +48,6 @@ $(document).ready(function(){
 			$("#tanggal").focus();
 			return false;
 		}
-		if(aktiva.length==0){
-			alert('Maaf, Aktiva tidak boleh kosong');
-			$("#aktiva").focus();
-			return false;
-		}
-		if(pasiva.length==0){
-			alert('Maaf, Pasiva tidak boleh kosong');
-			$("#pasiva").focus();
-			return false;
-		}
 		if(jumlah.length==0){
 			alert('Maaf, Jumlah tidak boleh kosong');
 			$("#jml").focus();

@@ -1,23 +1,45 @@
 // JavaScript Document
 $(document).ready(function(){
+
+    $.ajax({
+        type	: "POST",
+        url		: "modul/lap_peramalan/tampil_data1.php",
+        data	: {
+                    n: 3
+        },
+        success	: function(data){
+            $("#tampil_data1").html(data);
+        }
+    });
+
 	$("#tgl1").datepicker({
 			dateFormat:"dd-mm-yy"        
     });
 	$("#tgl2").datepicker({
 			dateFormat:"dd-mm-yy"        
     });
+
 	$("#cetak").click(function(){
-		var tgl1 	= $('#tgl1').val();
-		var tgl2 	= $('#tgl2').val();
-		var	pilih	= $(".pilih:checked").val();
-		var jml_pilih = $(".pilih:checked");
-		
-		if(jml_pilih.length == 0){
-           var error = true;
-           alert("Maaf, Anda belum memilih");
-		   //$("#txt_user").focus();
-		   return (false);
-         }
-		window.open('modul/laporan/lap-kreditmacet.php?pilih='+pilih+'&tgl1='+tgl1+'&tgl2='+tgl2);	
-	});						   
+		var bulan_from 	= $('#bulan_from').val();
+		var tahun_from 	= $('#tahun_from').val();
+		var bulan_to 	= $('#bulan_to').val();
+		var tahun_to 	= $('#tahun_to').val();
+		var n 	= $('#n').val();
+
+        $.ajax({
+            type	: "POST",
+            url		: "modul/lap_peramalan/tampil_data1.php",
+            data	: {
+                bulan_from: bulan_from,
+                tahun_from: tahun_from,
+                bulan_to: bulan_to,
+                tahun_to: tahun_to,
+                n: n
+            },
+            success	: function(data){
+                $("#tampil_data1").html(data);
+            }
+        });
+	});
+
 });

@@ -77,10 +77,10 @@ echo "<div id='dalam_content'>
 	<td width='2%'>:</td>
 	<td><select name='jenis' id='jenis' class='input'>
 	<option value=''>-Pilih-</option>";
-$sql = "SELECT * FROM jenis_simpan";
+$sql = "SELECT * FROM jenis_simpanan";
 $query = mysql_query($sql);
 while($rows=mysql_fetch_array($query)){
-    echo "<option value='$rows[id_jenis]'>$rows[id_jenis] - $rows[jenis_simpanan]</option>";
+    echo "<option value='{$rows['id_jenis']}'>{$rows['id_jenis']} - {$rows['jenis_simpanan']}</option>";
 }
 echo "</select>
 	</td>

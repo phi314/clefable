@@ -31,6 +31,13 @@ if($level=='admin'){
 }elseif($level == 'manager'){
 ?>
 <div class="easyui-accordion" style="float:left;width:170px;color:#FFF;">
+    <div title="Transaksi" data-options="iconCls:'icon-tip'" style="overflow:auto;padding:5px 0px;">
+        <ul class="easyui-tree">
+            <li data-options="iconCls:'icon-new'">
+                <a href="?module=kas">Kas</a>
+            </li>
+        </ul>
+    </div>
 <div title="Laporan" data-options="iconCls:'icon-print'" style="overflow:auto;padding:5px 0px;">
     <ul class="easyui-tree">
         <li data-options="iconCls:'icon-print'">

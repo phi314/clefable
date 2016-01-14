@@ -72,6 +72,9 @@ elseif ($mod=='lap-kegiatan'){
 elseif ($mod=='kas'){
     include "modul/kas/kas.php";
 }
+elseif ($mod=='penggajian'){
+    include "modul/penggajian/penggajian.php";
+}
 elseif ($mod=='lap-peramalan'){
     include "modul/lap_peramalan/lap_peramalan.php";
 }

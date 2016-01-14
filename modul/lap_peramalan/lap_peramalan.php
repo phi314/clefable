@@ -35,51 +35,16 @@
         <table>
             <tr>
                 <td>
-                    <select name="bulan_from" id="bulan_from">
-                        <option value="01">Januari</option>
-                        <option value="02">Februari</option>
-                        <option value="03">Maret</option>
-                        <option value="04">April</option>
-                        <option value="05">Mei</option>
-                        <option value="06">Juni</option>
-                        <option value="07">Juli</option>
-                        <option value="08">Agustus</option>
-                        <option value="09">September</option>
-                        <option value="10">Oktober</option>
-                        <option value="11">November</option>
-                        <option value="12">Desember</option>
-                    </select>
-                    <input type="text" name="tahun_from" size="4" placeholder="tahun" id="tahun_from">
-                    &nbsp; s/d &nbsp;
-                    <select name="bulan_to" id="bulan_to">
-                        <option value="01">Januari</option>
-                        <option value="02">Februari</option>
-                        <option value="03">Maret</option>
-                        <option value="04">April</option>
-                        <option value="05">Mei</option>
-                        <option value="06">Juni</option>
-                        <option value="07">Juli</option>
-                        <option value="08">Agustus</option>
-                        <option value="09">September</option>
-                        <option value="10">Oktober</option>
-                        <option value="11">November</option>
-                        <option value="12">Desember</option>
-                    </select>
-                    <input type="text" name="tahun_to" size="4" placeholder="tahun" id="tahun_to">
+                    Bulan <?php echo getBulan(date("m", strtotime("+1 month"))); ?>
                 </td>
             </tr>
             <tr>
                 <td align="center">
                     <label>Per</label>
-                    <input type="number" name="n" value="1" id="n"> Bulan
+                    6 Bulan
                 </td>
             </tr>
         </table>
-        <div id='menu-tombol'>
-            <button class='ui-state-default ui-corner-all'>
-                <span class='ui-icon ui-icon-print'></span> Hitung Peramalan
-            </button>
-        </div>
     </form>
 </div>
 

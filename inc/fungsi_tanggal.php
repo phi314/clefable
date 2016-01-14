@@ -14,4 +14,6 @@ function jin_date_str($date){
 	}
 	return $date;
 }
+
+
 ?>

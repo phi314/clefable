@@ -36,6 +36,9 @@ if($level=='admin'){
             <li data-options="iconCls:'icon-new'">
                 <a href="?module=kas">Kas</a>
             </li>
+            <li data-options="iconCls:'icon-new'">
+                <a href="?module=penggajian">Penggajian</a>
+            </li>
         </ul>
     </div>
 <div title="Laporan" data-options="iconCls:'icon-print'" style="overflow:auto;padding:5px 0px;">

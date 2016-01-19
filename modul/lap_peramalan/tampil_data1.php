@@ -31,7 +31,7 @@ $date_diff = date_diff($from_month, $to_month);
 $total_month = ($date_diff->y * 12) + $date_diff->m;
 
 // kas from month to month
-$q = mysql_query("SELECT jumlah, MONTH(tanggal) as bulan FROM kas WHERE tanggal >= NOW() - interval 12 month GROUP BY MONTH(tanggal) ORDER BY tanggal ASC");
+$q = mysql_query("SELECT sum(jumlah) as jumlah, MONTH(tanggal) as bulan FROM kas WHERE tanggal >= NOW() - interval 12 month GROUP BY MONTH(tanggal) ORDER BY tanggal ASC");
 
 while($data = mysql_fetch_array($q))
 {
@@ -73,7 +73,7 @@ $array_bulan = $array_bulan_kas;
 <br>
 
 <?php
-$peramalan_array = [];
+$peramalan_array = [0, 0, 0, 0, 0, 0];
 if(mysql_num_rows($q) > $n){
 ?>
 <table id="theTable" width="100%">
@@ -110,7 +110,7 @@ if(mysql_num_rows($q) > $n){
     $no = 1;
 
     for($t = 0; $t < $n; $t++):
-    $peramalan_array[] = 0;
+
         ?>
         <tr>
             <td><?php echo getBulan($array_bulan_default[$t]['bulan']); ?></td>
@@ -199,6 +199,15 @@ if(mysql_num_rows($q) > $n){
 
 <script>
 
+    <?php
+        $penggajian_array = [];
+        $q_penggajian = mysql_query("SELECT sum(jumlah) as jumlah FROM penggajian WHERE tanggal >= NOW() - interval 12 month GROUP BY MONTH(tanggal) ORDER BY tanggal ASC");
+        while($data_penggajian = mysql_fetch_object($q_penggajian))
+        {
+            $penggajian_array[] = $data_penggajian->jumlah;
+        }
+    ?>
+
     var labels = [
         <?php
             foreach($array_bulan_default as $key1 => $bulan)
@@ -230,29 +239,51 @@ if(mysql_num_rows($q) > $n){
         ?>
     ];
 
+    var penggajian = [
+        <?php
+            foreach($penggajian_array as $key4 => $penggajian)
+            {
+                echo $penggajian;
+                echo $key4 == count($penggajian_array) ? '' : ',';
+            }
+         ?>
+    ]
+
+
+
     var randomScalingFactor = function(){ return Math.round(Math.random()*100)};
     var lineChartData = {
         labels : labels,
         datasets : [
             {
                 label: "Modal",
-                fillColor : "rgba(151,187,205,0.2)",
-                strokeColor : "rgba(151,187,205,1)",
-                pointColor : "rgba(151,187,205,1)",
-                pointStrokeColor : "#fff",
-                pointHighlightFill : "#fff",
-                pointHighlightStroke : "rgba(151,187,205,1)",
+                fillColor : "rgba(220,20,60,0)",
+                strokeColor : "rgba(220,20,60,1)",
+                pointColor : "rgba(220,20,60,1)",
+                pointStrokeColor : "#DC143C",
+                pointHighlightFill : "#DC143C",
+                pointHighlightStroke : "rgba(220,20,60,1)",
                 data : modals
             },
             {
                 label: "Peramalan",
-                fillColor : "rgba(161,122,205,0.2)",
+                fillColor : "rgba(161,122,205,0)",
                 strokeColor : "rgba(161,203,205,1)",
-                pointColor : "rgba(171,192,205,1)",
-                pointStrokeColor : "#bbb",
-                pointHighlightFill : "#ccc",
+                pointColor : "rgba(0,255,0,1)",
+                pointStrokeColor : "#00FF00",
+                pointHighlightFill : "#00FF00",
                 pointHighlightStroke : "rgba(230,187,205,1)",
                 data : peramalan
+            },
+            {
+                label: "Penggajian",
+                fillColor : "rgba(61,222,205,0)",
+                strokeColor : "rgba(31,203,205,1)",
+                pointColor : "rgba(81,192,205,1)",
+                pointStrokeColor : "#555",
+                pointHighlightFill : "#888",
+                pointHighlightStroke : "rgba(23,187,205,1)",
+                data : penggajian
             }
         ]
 
@@ -261,7 +292,9 @@ if(mysql_num_rows($q) > $n){
     window.onload = function(){
         var ctx = document.getElementById("canvas").getContext("2d");
         window.myLine = new Chart(ctx).Line(lineChartData, {
-            responsive: true
+            responsive: true,
+            tooltipFillColor: "rgba(0,0,0,0.8)",
+            multiTooltipTemplate: "<%= datasetLabel %> - <%= value %>"
         });
     }
 

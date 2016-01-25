@@ -41,6 +41,6 @@ if ($row>0){
 			<td>Sisa Angsuran</td>
 			<td>: ".number_format($sisaangsuran)."</td>
 		</tr>
-	</table>";
+	</table><input type='hidden' id='no' value='$id' name='no'>";
 }
 ?>

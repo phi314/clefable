@@ -26,22 +26,12 @@
       <file leaf-file-name="tampil_data1.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modul/lap_peramalan/tampil_data1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="20" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.12802768" vertical-offset="4534" max-vertical-offset="5688">
+            <state line="310" column="32" selection-start="7667" selection-end="7667" vertical-scroll-proportion="0.0034602077" vertical-offset="5578" max-vertical-offset="6156">
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1453213082587" expanded="true" signature="798:948" placeholder="SELECT sum(j..." />
-                <marker date="1453213082587" expanded="true" signature="1052:1140" placeholder="SELECT sum(j..pinjaman..." />
-                <marker date="1453213082587" expanded="true" signature="4429:4561" placeholder="SELECT sum(j..penggajian..." />
+                <marker date="1453739802357" expanded="true" signature="815:965" placeholder="SELECT sum(j..." />
+                <marker date="1453739802357" expanded="true" signature="1069:1139" placeholder="SELECT sum(j..pinjaman..." />
+                <marker date="1453739802357" expanded="true" signature="4312:4444" placeholder="SELECT sum(j..penggajian..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lap_peramalan_debuging.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modul/lap_peramalan/lap_peramalan_debuging.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="43" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="3798">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -87,7 +77,6 @@
         <option value="$PROJECT_DIR$/modul/penarikan/tampil_data1.php" />
         <option value="$PROJECT_DIR$/modul/penarikan/cari_anggota.php" />
         <option value="$PROJECT_DIR$/modul/pinjaman/pinjaman.php" />
-        <option value="$PROJECT_DIR$/modul/pinjaman/cari_anggota.php" />
         <option value="$PROJECT_DIR$/modul/pinjaman/tampil_data_cicilan.php" />
         <option value="$PROJECT_DIR$/modul/bayar/bayar.php" />
         <option value="$PROJECT_DIR$/modul/kas/kas.php" />
@@ -97,7 +86,6 @@
         <option value="$PROJECT_DIR$/modul/lap_peramalan/ajax.js" />
         <option value="$PROJECT_DIR$/media.php" />
         <option value="$PROJECT_DIR$/modul/lap_peramalan/cetak.php" />
-        <option value="$PROJECT_DIR$/menu_new.php" />
         <option value="$PROJECT_DIR$/content.php" />
         <option value="$PROJECT_DIR$/modul/penggajian/simpan.php" />
         <option value="$PROJECT_DIR$/modul/penggajian/tampil_data1.php" />
@@ -106,6 +94,8 @@
         <option value="$PROJECT_DIR$/modul/lap_peramalan/lap_peramalan.php" />
         <option value="$PROJECT_DIR$/inc/fungsi_tanggal.php" />
         <option value="$PROJECT_DIR$/inc/inc.koneksi.php" />
+        <option value="$PROJECT_DIR$/modul/pinjaman/cari_anggota.php" />
+        <option value="$PROJECT_DIR$/menu_new.php" />
         <option value="$PROJECT_DIR$/modul/lap_peramalan/tampil_data1.php" />
       </list>
     </option>
@@ -172,6 +162,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clefable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modul" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pinjaman" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,7 +270,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31392604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33595595" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -270,11 +278,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -379,11 +387,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="618" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modul/pinjaman/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="23" selection-start="857" selection-end="857" vertical-scroll-proportion="0.0" vertical-offset="305" max-vertical-offset="4806" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modul/kas/hapus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="41" selection-start="221" selection-end="221" vertical-scroll-proportion="0.22261484" vertical-offset="0" max-vertical-offset="566" />
@@ -434,19 +437,9 @@
         <state line="65" column="29" selection-start="1556" selection-end="1556" vertical-scroll-proportion="-5.6296296" vertical-offset="1018" max-vertical-offset="2016" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modul/pinjaman/cari_anggota.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="65" selection-start="748" selection-end="748" vertical-scroll-proportion="-8.037037" vertical-offset="377" max-vertical-offset="918" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modul/pinjaman/tampil_data_cicilan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="63" selection-start="1492" selection-end="1492" vertical-scroll-proportion="-11.222222" vertical-offset="759" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modul/pinjaman/pinjaman.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="50" selection-start="1197" selection-end="1197" vertical-scroll-proportion="-5.3333335" vertical-offset="864" max-vertical-offset="2502" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/bayar/bayar.php">
@@ -509,16 +502,6 @@
         <state line="224" column="11" selection-start="6496" selection-end="6496" vertical-scroll-proportion="0.0" vertical-offset="3726" max-vertical-offset="6282" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/menu_new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="43" selection-start="1504" selection-end="1504" vertical-scroll-proportion="-17.62963" vertical-offset="226" max-vertical-offset="1710" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="24" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.66089964" vertical-offset="950" max-vertical-offset="1602" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cek_login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="50" selection-start="282" selection-end="282" vertical-scroll-proportion="0.03180212" vertical-offset="108" max-vertical-offset="774" />
@@ -561,19 +544,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/lap_peramalan/lap_peramalan_debuging.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="43" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="3798">
-          <folding />
-        </state>
+        <state line="135" column="43" selection-start="3309" selection-end="3309" vertical-scroll-proportion="0.0" vertical-offset="2430" max-vertical-offset="3798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="4806" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/cari_anggota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="949" selection-end="949" vertical-scroll-proportion="-28.666666" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="24" selection-start="2852" selection-end="2852" vertical-scroll-proportion="-49.333332" vertical-offset="0" max-vertical-offset="1602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="3214" selection-end="3214" vertical-scroll-proportion="-16.0" vertical-offset="1044" max-vertical-offset="1656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modul/pinjaman/pinjaman.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="22" selection-start="1486" selection-end="1488" vertical-scroll-proportion="-3.1929824" vertical-offset="952" max-vertical-offset="2502" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modul/lap_peramalan/tampil_data1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="20" selection-start="5879" selection-end="5879" vertical-scroll-proportion="0.12802768" vertical-offset="4534" max-vertical-offset="5688">
+        <state line="310" column="32" selection-start="7667" selection-end="7667" vertical-scroll-proportion="0.0034602077" vertical-offset="5578" max-vertical-offset="6156">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1453213082587" expanded="true" signature="798:948" placeholder="SELECT sum(j..." />
-            <marker date="1453213082587" expanded="true" signature="1052:1140" placeholder="SELECT sum(j..pinjaman..." />
-            <marker date="1453213082587" expanded="true" signature="4429:4561" placeholder="SELECT sum(j..penggajian..." />
+            <marker date="1453739802357" expanded="true" signature="815:965" placeholder="SELECT sum(j..." />
+            <marker date="1453739802357" expanded="true" signature="1069:1139" placeholder="SELECT sum(j..pinjaman..." />
+            <marker date="1453739802357" expanded="true" signature="4312:4444" placeholder="SELECT sum(j..penggajian..." />
           </folding>
         </state>
       </provider>

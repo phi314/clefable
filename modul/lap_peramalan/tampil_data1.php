@@ -5,7 +5,7 @@ include '../../inc/fungsi_tanggal.php';
 $n = 6;
 
 
-
+$monitoring = [];
 
 $array_bulan = [];
 
@@ -36,21 +36,19 @@ $q = mysql_query("SELECT sum(jumlah) as jumlah, MONTH(tanggal) as bulan FROM kas
 while($data = mysql_fetch_array($q))
 {
     $bulan = $data['bulan'];
-    $q_pinjaman = mysql_query("SELECT sum(jumlah) as jumlah FROM pinjaman WHERE MONTH(tgl)='$bulan' GROUP BY MONTH(tgl)");
+    $q_pinjaman = mysql_query("SELECT sum(jumlah) as jumlah FROM pinjaman WHERE MONTH(tgl) = '$bulan'");
     $data_pinjaman = mysql_fetch_array($q_pinjaman);
-
-    $total = $data['jumlah'] - $data_pinjaman['jumlah'];
+    $jumlah = $data_pinjaman['jumlah'];
+    $monitoring['pinjaman'][] = $jumlah;
 
     $array = [
         'bulan'     => $bulan,
-        'kas'       => $data['jumlah'],
-        'pinjaman'  => $data_pinjaman['jumlah'] == null ? 0 : $data_pinjaman['jumlah'],
-        'total'     => $total
+        'kas'       => $data['jumlah']
     ];
 
-//    dump($array);
-
     $array_bulan[] = $array;
+
+
 }
 
 $array_bulan_kas = [];
@@ -151,7 +149,7 @@ if(mysql_num_rows($q) > $n){
 
         ?>
         <tr>
-            <td><?php echo isset($array_bulan_default[$no_bulan]['bulan']) ? getBulan($array_bulan_default[$no_bulan++]['bulan']) : "Februari";  ?></td>
+            <td><?php echo isset($array_bulan_default[$no_bulan]['bulan']) ? getBulan($array_bulan_default[$no_bulan++]['bulan']) : "Januari";  ?></td>
             <td><?php echo $pm; ?></td>
             <td><?php echo $yt; ?></td>
 <!--            <td>--><?php //echo $pm == 0 ? 0 : $error; ?><!--</td>-->
@@ -212,6 +210,7 @@ if(mysql_num_rows($q) > $n){
         <?php
             foreach($array_bulan_default as $key1 => $bulan)
             {
+                $monitoring['bulan'][] = $bulan['bulan'];
                 echo '"'.getBulan($bulan['bulan']);
                 echo $key1 == count($array_bulan_default) ? '"' : '",';
             }
@@ -223,6 +222,7 @@ if(mysql_num_rows($q) > $n){
         <?php
             foreach($array_bulan_default as $key2 => $modal)
             {
+                $monitoring['modal'][] = $modal['kas'];
                 echo $modal["kas"];
                 echo $key2 == count($array_bulan_default) ? '' : ',';
             }
@@ -243,6 +243,7 @@ if(mysql_num_rows($q) > $n){
         <?php
             foreach($penggajian_array as $key4 => $penggajian)
             {
+                $monitoring['penggajian'][] = $penggajian;
                 echo $penggajian;
                 echo $key4 == count($penggajian_array) ? '' : ',';
             }
@@ -306,5 +307,30 @@ if(mysql_num_rows($q) > $n){
         <canvas id="canvas" height="200" width="600"></canvas>
     </div>
 </div>
+
+<table width="100%" id="theTable">
+    <thead>
+    <tr>
+        <th>Bulan</th>
+        <th>Target Modal</th>
+        <th>Kegiatan Koperasi</th>
+        <th>Gaji</th>
+    </tr>
+    </thead>
+    <tbody>
+    <?php
+        foreach($monitoring['bulan'] as $key2 => $bulan):
+    ?>
+        <tr>
+            <td><?php echo getBulan($bulan); ?></td>
+            <td><?php echo $monitoring['modal'][$key2]; ?></td>
+            <td><?php echo $monitoring['pinjaman'][$key2]; ?></td>
+            <td><?php echo $monitoring['penggajian'][$key2]; ?></td>
+        </tr>
+    <?php
+        endforeach;
+    ?>
+    </tbody>
+</table>
 
 

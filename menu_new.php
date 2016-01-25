@@ -80,9 +80,6 @@ if($level=='admin'){
                 <li data-options="iconCls:'icon-new'">
                     <a href="?module=bayar">Bayar Pinjaman</a>
                 </li>
-                <li data-options="iconCls:'icon-new'">
-                    <a href="?module=kas">Kas</a>
-                </li>
             </ul>
         </div>
     </div>

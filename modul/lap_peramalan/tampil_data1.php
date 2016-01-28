@@ -248,6 +248,19 @@ if(mysql_num_rows($q) > $n){
                 echo $key4 == count($penggajian_array) ? '' : ',';
             }
          ?>
+    ];
+
+    var peminjaman = [
+        <?php
+            $q_pinjaman_bulan_ini = mysql_query("SELECT SUM(jumlah) as jumlah FROM pinjaman WHERE MONTH(NOW()) = MONTH(tgl) AND YEAR(NOW()) = YEAR(tgl)");
+            $d_pinjaman_bulan_ini = mysql_fetch_object($q_pinjaman_bulan_ini);
+
+            foreach($monitoring['pinjaman'] as $key_pinjaman => $pinjaman)
+            {
+                echo $pinjaman;
+                echo $key_pinjaman == count($monitoring['pinjaman']) ? '' : ',';
+            }
+         ?>
     ]
 
 
@@ -285,6 +298,16 @@ if(mysql_num_rows($q) > $n){
                 pointHighlightFill : "#888",
                 pointHighlightStroke : "rgba(23,187,205,1)",
                 data : penggajian
+            },
+            {
+                label: "Peminjaman",
+                fillColor : "rgba(2,22,205,0)",
+                strokeColor : "rgba(2,20,205,1)",
+                pointColor : "rgba(2,19,205,1)",
+                pointStrokeColor : "#555",
+                pointHighlightFill : "#888",
+                pointHighlightStroke : "rgba(2,187,205,1)",
+                data : peminjaman
             }
         ]
 
@@ -329,7 +352,41 @@ if(mysql_num_rows($q) > $n){
         </tr>
     <?php
         endforeach;
+
     ?>
+        <tr>
+            <td><?php echo getBulan(date('m')); ?></td>
+            <td></td>
+            <td><?php echo $d_pinjaman_bulan_ini->jumlah; ?></td>
+            <td>0</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Monitoring</h3>
+<table width="100%" id="theTable">
+    <thead>
+    <tr>
+        <th>Target Peramalan</th>
+        <th>Total Kegiatan Koperasi bulan ini</th>
+        <th>Sisa Target Peramalan</th>
+        <th>Persentase</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td><?php echo $last_peramalan = end($peramalan_array); ?></td>
+        <td><?php echo $d_pinjaman_bulan_ini->jumlah; ?></td>
+        <td>
+            <?php
+                echo $sisa = $d_pinjaman_bulan_ini->jumlah - $last_peramalan;
+
+                $persentasi = ($sisa/$last_peramalan)*100;
+            ?>
+
+        </td>
+        <td><?php echo "(".round($persentasi)."%)"; ?></td>
+    </tr>
     </tbody>
 </table>
 

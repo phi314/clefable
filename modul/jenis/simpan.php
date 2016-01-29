@@ -1,9 +1,9 @@
 <?php
 include "../../inc/inc.koneksi.php";
-$table		="jenis_simpan";
-$id		=$_POST[id];
-$jenis	=$_POST[jenis];
-$jml	=$_POST[jml];
+$table		="jenis_simpanan";
+$id		=$_POST['id'];
+$jenis	=$_POST['jenis'];
+$jml	=$_POST['jml'];
 
 $sql = mysql_query("SELECT *
 				   FROM $table 

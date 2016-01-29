@@ -60,9 +60,10 @@ echo "<table id='theTable' width='100%'>
 			<th>Jumlah</th>
 			<th width='10%'>Aksi</th>
 		</tr>";
-	$sql	= "SELECT * FROM jenis_simpan ORDER By id_jenis";
+	$sql	= "SELECT * FROM jenis_simpanan ORDER By id_jenis";
 	$query	= mysql_query($sql);
-	
+
+
 	$no=1;
 	while($rows=mysql_fetch_array($query)){
 		echo "<tr>

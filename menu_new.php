@@ -66,6 +66,13 @@ if($level=='admin'){
 </div>
 <?php }else{ ?>
     <div class="easyui-accordion" style="float:left;width:170px;color:#FFF;">
+        <div title="Master" data-options="iconCls:'icon-tip'" style="overflow:auto;padding:5px 0px;">
+            <ul class="easyui-tree">
+                <li data-options="iconCls:'icon-new'">
+                    <a href="?module=anggota">Anggota</a>
+                </li>
+            </ul>
+        </div>
         <div title="Transaksi" data-options="iconCls:'icon-tip'" style="overflow:auto;padding:5px 0px;">
             <ul class="easyui-tree">
                 <li data-options="iconCls:'icon-new'">

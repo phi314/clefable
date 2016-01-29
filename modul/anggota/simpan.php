@@ -2,14 +2,14 @@
 include "../../inc/inc.koneksi.php";
 include "../../inc/fungsi_tanggal.php";
 $table		="nasabah";
-$no		=$_POST[no];
-$id		=mysql_real_escape_string($_POST[id]);
-$nama	=mysql_real_escape_string($_POST[nama]);
-$jk		=$_POST[jk];
-$tempat	=mysql_real_escape_string($_POST[tempat]);
-$tgl	=jin_date_sql($_POST[tgl]);
-$alamat	=mysql_real_escape_string($_POST[alamat]);
-$hp		=$_POST[hp];
+$no		=$_POST['no'];
+$id		=mysql_real_escape_string($_POST['id']);
+$nama	=mysql_real_escape_string($_POST['nama']);
+$jk		=$_POST['jk'];
+$tempat	=mysql_real_escape_string($_POST['tempat']);
+$tgl	=jin_date_sql($_POST['tgl']);
+$alamat	=mysql_real_escape_string($_POST['alamat']);
+$hp		=$_POST['hp'];
 $pwd	=md5('koperasi');
 $sql = mysql_query("SELECT *
 				   FROM $table 

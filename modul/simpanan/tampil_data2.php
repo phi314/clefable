@@ -31,7 +31,7 @@ echo "<table id='theTable' class='dua' width='100%'>
 		</tr>";
 	$sql	= "SELECT a.*,b.jenis_simpanan,c.namaanggota,c.jk
 				FROM simpanan as a
-				JOIN jenis_simpan as b
+				JOIN jenis_simpanan as b
 				JOIN nasabah as c
 				ON a.id_jenis=b.id_jenis AND a.noanggota=c.noanggota
 				$where

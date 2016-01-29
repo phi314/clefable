@@ -80,7 +80,7 @@ $judul_H = "Laporan Hutang Anggota <br>";
 
 if($pilih=='tanggal'){
 	$where	= " WHERE a.tgl_jatuh_tempo BETWEEN '$tgl1' AND '$tgl2' AND a.jumlah_bayar=0";
-	$judul_H .= "Berdasarkan Tanggal Jatuh Tempo $_GET[tgl1] s/d $_GET[tgl2] <br>";
+	$judul_H .= "Berdasarkan Tanggal Jatuh Tempo $tgl1 s/d $tgl2 <br>";
 }else{
 	$where	= " WHERE a.jumlah_bayar=0";
 }
@@ -91,13 +91,14 @@ $query = "select a.id_pinjam,a.cicilan,a.angsuran,a.bunga,(a.angsuran+a.bunga) a
 			c.namaanggota,c.jk 
 			from angsuran as a
 			join pinjaman as b
-			JOIN anggota as c
+			JOIN nasabah as c
 			ON a.id_pinjam=b.id_pinjam AND b.noanggota=c.noanggota
 		  $where
 		  ORDER BY a.id_pinjam,b.noanggota,a.cicilan";
-//echo $query;
+
 
 $data = mysql_query($query);
+echo mysql_error();
 
 function myheader($judul_H){
 echo  "<div class='header'>

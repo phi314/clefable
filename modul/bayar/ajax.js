@@ -121,7 +121,7 @@ $(document).ready(function(){
 			url		: "modul/bayar/tampil_data2.php",
 			data	: "tgl1="+tgl1+"&tgl2="+tgl2,
 			success	: function(data){
-				$("#tampil_data2").html(data);
+				$("#tampil_data1").html(data);
 			}
 		});
 	}
